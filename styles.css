@@ -32,7 +32,7 @@ background-color: #1099c1;
         border-radius: 100px 100px 0 0 ;   
         padding: 0.75em;
         border: 3px solid #1a9a84;
-        
+        contain: content;
     }
 
 .action {
@@ -93,11 +93,6 @@ nav a {
 }
 
 /* Image Properties */
-
-
-
-
-
 .banner-image {
   max-width: 100%;
 }
@@ -242,4 +237,5 @@ footer {
     grid-column: 2/-1;
 	padding:15px 20px;
 	background: whitesmoke;
+}
 }
